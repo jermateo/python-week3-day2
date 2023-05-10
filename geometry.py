@@ -7,9 +7,4 @@ def circle_area(radius):
 
 def tri_hypotenuse(leg, base):
     hypotenuse = math.sqrt((int(leg) ** 2) + (int(base) ** 2))
-    print(hypotenuse)
-
-leg = input('Leg: ')
-base = input('Base: ')
-tri_hypotenuse(leg, base)
-
+    return hypotenuse
